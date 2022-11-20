@@ -1,0 +1,182 @@
+
+@media only screen and (max-device-width: 500px) {
+    *{
+        overflow-x: hidden;
+    }
+    
+    .m1 {
+        margin: 2rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        
+        padding-bottom: 5rem;
+        color: white;
+        height: 29rem;
+        border-radius: 30px;
+        border-color: rgb(247, 245, 245);
+        border-width: 10px;
+        border-style: solid;
+        background-image: url(images/food.jpg);
+        background-repeat: no-repeat;
+        background-position: 0rem;
+    }
+    #t {
+        border-radius: 30px;
+        border-color: red;
+        border-style: solid;
+        margin-top: 0px;
+        padding-left: 235px;
+    }
+     #people{
+    margin-top: 155px;
+   }
+   #ok {
+    margin-left: 6rem;
+    width: 3rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+   
+#tableno {
+    background-color: white;
+    border-radius: 4rem;
+    border-color: white;
+    border-style: solid;
+    margin-left: 0rem;
+    margin-top: 8rem;
+    width: 15rem;
+}
+.fa-solid {
+    margin-left: 6rem;
+    margin-top: 1rem;
+    color: aliceblue;
+}
+    #tableno::placeholder{
+        padding-left: 80px;
+        color: black;
+    }
+    .fa-solid:hover{
+        color: red;
+    }
+       /*page-2*/
+       .page1{
+        height: fit-content;
+        width: fit-content;
+        display: block;
+    }
+
+    .order {
+        background-image: url(images/order.jpg);
+        background-size: 17rem;
+        border-style: solid;
+        background-repeat: no-repeat;
+        margin-left: 3rem;
+        height: 16rem;
+        width: 16rem;
+    }
+    .order:hover {
+        background-image: url(images/ordernowhover.jpg);
+        background-size: 17rem;
+        border-style: solid;
+        background-repeat: no-repeat;
+        margin-left: 3rem;
+        height: 16rem;
+        width: 16rem;
+    }
+    
+    
+
+    .call {
+        background-image: url(images/call.jpg);
+        background-size: 17rem;
+        border-style: solid;
+        background-repeat: no-repeat;
+        height: 358px;
+        width: 335px;
+        margin: 39px -14px 30px 121px;
+    }
+    .call:hover{
+        background-image:url("images/callwaiterhover.jpg");
+        background-size: 286px;
+        background-size: 373px;
+        border-style: solid;
+        background-repeat: no-repeat;
+        height: 358px;
+        width: 335px;
+        margin: 39px -14px 30px 121px;
+    }
+
+   #waitercalled {
+    margin-left: 3rem;
+    height: 16rem;
+    width: 16rem;
+    margin-bottom: 0rem;
+   }
+   #mes {
+    height: 2rem;
+    width: 11rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: -1rem;
+    border-radius: 1rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+    ::placeholder{
+        color: black;
+    }
+    #su {
+        height: 2rem;
+        width: 11rem;
+        border-radius: 41rem;
+        background-color: blue;
+        margin-left: 5.5rem;
+        margin-top: 25px;
+        padding-left: 0rem;
+    }
+    footer{
+        color:aquamarine;
+        margin: 89px 20px 20px 437px;
+    }
+    #callbutton {
+        background-color: red;
+        border-radius: 581px;
+        height: 133px;
+        margin-top: 66px;
+        margin-left: -37px;
+        padding: 10px 38px 10px 38px;
+    }
+    /*page-3*/
+    #imagepage2 {
+        width: 16rem;
+        height: 15rem;
+        margin-left: 4rem;
+    }
+    #h3 {
+        margin-left: 4rem;
+        margin-top: 1rem;
+        /* margin-bottom: -6rem; */
+        color: red;
+        font-size: 2.5em;
+    }
+    #bu {
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        width: 4rem;
+        height: 3rem;
+    }
+    .search {
+        background-color: white;
+        height: 2rem;
+        width: 17rem;
+        border-radius: 29px;
+        margin-left: 0rem;
+    }
+    div
+    {
+        display: block;
+    }
+    
+}
